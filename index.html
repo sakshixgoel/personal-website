@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakshi Goel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Additional inline styles */
+        .waterloo-img {
+            float: right;
+            margin-left: 20px;
+        }
+
+        .education-text {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav> 
+            <img src="photos/logo5.png" class="logo">
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Case Comps</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Math Student @ UWaterloo</p>
+            <h1>Hi, I'm <span>Sakshi Goel</span></h1>
+        </div>
+    </div>
+</div>
+<!--------about------>
+<div id="about"> 
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Photos/grad.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I’m a passionate second-year Mathematics student at the University of Waterloo, home to one of the world’s most renowned math faculties. My academic journey and interests converge at the intersection of data, cybersecurity, product development, and software engineering.
+
+                    I thrive on challenges that require innovative problem-solving, which I’ve honed through diverse experiences. From excelling in an IT System Support role for the Gov of Ontario, where I resolved complex technical issues, to competing in case competitions for product innovation and actuarial science, I consistently push boundaries to deliver impactful results.
+                    
+                    Whether it’s developing cutting-edge solutions or exploring new technologies, I am deeply committed to learning and growing.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('awards')">Awards</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br><img src="Photos/htmllogo.png" width="50" height="50"><img src="Photos/csslogo2.svg" width="50" height="50">
+                            <img src="Photos/JavaScriptLogo2.png" width="85" height="50"></li>
+                            <li><span>Backend Development</span><br><img src="Photos/node.png" width="45" height="45">
+                            <img src="Photos/csharp.svg" width="50" height="50">
+                            <img src="Photos/java.png" width="50" height="50"></li>
+                            <li><span>Data Science & ML</span><br><img src="Photos/pythonlogo.png" width="50" height="50">
+                                <img src="Photos/R_logo.svg.png" width="50" height="50">
+                                <img src="Photos/sql_logo.png" width="50" height="45">
+                                <img src="Photos/numpy-logo.png" width="60" height="45">
+                                <img src="Photos/opencv-logo.png" width="50" height="50">
+                                <img src="Photos/matplotlib.png" width="50" height="50">
+                                <img src="Photos/excel.png" width="50" height="50">
+                                <img src="Photos/jupyter_logo.png" width="50" height="50">
+                                <img src="Photos/powerbi.png" width="50" height="50">
+                            </li>
+
+                            <li><span>Developer Tools</span><br><img src="Photos/vs_code.png" width="50" height="50">
+                                    <img src="Photos/Figma-logo.png" width="50" height="50">
+                                    <img src="Photos/github.webp" width="50" height="50">
+                                    <img src="Photos/latex.png" width="50" height="50">
+                                    <img src="Photos/powershell.webp" width="50" height="50"></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Sept 2024 - Dec 2024</span><br>IT System Support Officer @ Ontario Ministry of the Attorney General<br>
+                            <br><span>Sept 2021 - Jun 2022</span><br>Programming Instructor & Hackathon Organzier @ STEM1 Coding & Robotics Academy
+                            
+                        <br><br><span>Nov 2020 - Jun 2023</span><br>Mathematics Tutor @ St. Marcellinus Secondary School
+                        <br><br><span>Jul 2019 - Aug 2019</span><br>Summer Camp Counselor @ Mississauga's Ram Mandir
+                        <br><br><span>Sep 2019 - Jan 2023</span><br>Air Cadet @ 800 Black forest Squadron RCAirCS</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Sept 2023 - Present</span><br>
+                                <strong>University of Waterloo</strong><br>
+                                Honours Bachelor of Mathematics<br>Major: Information Technology Management
+                                
+                                <br>Minor: Computer Science
+                            </li>
+                        </ul>
+                        <div class="spacer"></div>
+                        <ul>
+                            <li>
+                                <strong>Relevant Coursework:</strong><br>
+                                Math: Statistics, Probability, Linear Algebra, Calculus 1&2, Algebra<br>
+                                Computer Science: Computer Systems, Computer Science 1, Computer Science 2 <br>
+                                Finance: Financial Math, Financial Accounting, Micro Economics, Actuarial Practice <br>
+                                <br><br>
+                                Presidents Scholarship of Distinction <br>
+                                <img src="Photos/waterloo.avif" width="150" height="120">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="awards">
+                        <ul>
+                            <li><span>CTRL+HACK+DEL 2024</span><br>Best Security Hack (1Password Challenge)</li><br>
+                            <li><span>DECA Ontario Provincials 2023</span><br>Top 20 in Accounting Case Study</li><br>
+                            <li><span>University of Waterloo 2023</span><br>Presidents Scholarship of Distinction</li><br>
+                            <li><span>St. Marcellinus Secondary School 2023</span><br>School Letter Award (Outstanding Academics & Involvement) </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------services---------> 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Case Competitions</h1>
+        <div class="services-list" style="display: flex; gap: 20px; flex-wrap: wrap;">
+
+            <div class="certification-item">
+                <h2>ProdCon 2024 (Product Management)</h2>
+                <p>Developed a strategic product roadmap for TD's Immersive Learning Program, leveraging<br>VR-based training to enhance employee confidence, empathy, and customer engagement <br>across North American branches. Proposed an integrated app for real-time progress tracking, <br>personalized feedback, and cost-efficient scalability, ensuring consistent training outcomes <br>across TD branches in North America.</p>
+                <a href="https://drive.google.com/file/d/1oYpFkbiWqJpVOvEdMvuz5SgjVctlMnyl/view?usp=sharing">View Project</a>
+            </div>
+            <div class="certification-item">
+                <h2>Quantify 2024 (Actuarial Science)</h2>
+                <p>Developed InsureVision, an AI-powered actuarial tool integrating blockchain technology to <br>
+                    enhance data security, streamline rate assignments, and optimize actuarial processes for <br>
+                    ProsperLife. Focused on leveraging predictive modeling and geospatial analysis to address <br>
+                    policy terminations, data breaches, and growth opportunities while ensuring customer trust <br>
+                    through robust encryption.</p>
+                <a href="https://drive.google.com/file/d/1fvoYbpokPRFTVnsqOowGoJ9WafS9FDRS/view?usp=sharing">View Project</a>
+            </div>
+           
+        </div>
+    </div>
+</div>
+
+<!-------portfolio----->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Photos/cube2.webp">
+                <div class="layer">
+                    <h3>Cube Sort - Algorithm Teaching</h3>
+                    <p>Created an engaging visual aid for students learning the Bubble Sort Algorithm, 
+                        using Object-Oriented Programming (OOP) principles to develop original 
+                        visuals that complement course materials.</p>
+                    <a href="https://editor.p5js.org/sakshi.dgoel15/full/fYOqseh-t">Learn More</a>
+                </div>
+            </div> <!-- This closes the 'work' div correctly -->
+            <div class="work">
+                <img src="Photos/arcade2.webp">
+                <div class="layer">
+                    <h3>Arcade Escape Game</h3>
+                    <p>Designed and developed a 3-level game using OOP <br>
+                        principles in JavaScript, incorporating classes, <br>
+                        inheritance, and polymorphism. Utilized the P5.js <br>
+                        library for visuals, game logic, and rendering, <br>
+                        while conducting playtesting and debugging to ensure a <br>
+                        smooth gameplay experience.</p>
+                    <a href="https://editor.p5js.org/sakshi.dgoel15/full/fYOqseh-t">Learn More</a>
+                </div>
+            </div> <!-- This closes the 'work' div correctly -->
+            
+            <div class="work">
+                <img src="Photos/fruit2.jpg">
+                <div class="layer">
+                    <h3>Fruit Ninja</h3>
+                    <p>Created a Fruit Ninja game using JavaScript with the twist of Java String Methods quizzes for players to revive themselves.</p>
+                    <a href="https://editor.p5js.org/sakshi.dgoel15/full/2IytlxK5y">Learn More</a>
+                </div>
+            </div> <!-- Correctly closed 'work' div -->
+            
+        </div>
+    </div>
+</div>
+
+<!----------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>
+                    <a href="mailto:sakshi.goel@uwaterloo.ca">
+                        <img src="Photos/gmail.png" alt="Email" width="30" height="30">
+                    </a>
+                    sakshi.goel@uwaterloo.ca
+                </p>
+                <p>
+                    <a href="tel:647-410-7050">
+                        <img src="Photos/phone.png" alt="Phone" width="30" height="30">
+                    </a>
+                    647-410-7050
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sakshigoel1/" target="_blank">
+                        <img src="Photos/linkedin.webp" alt="LinkedIn">
+                    </a>
+                    <a href="https://github.com/sakshixgoel" target="_blank">
+                        <img src="Photos/github.png" alt="GitHub">
+                    </a>
+                </div>
+                <a href="###" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        // Remove active class from all tab links and contents
+        for (var tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+
+        // Add active class to the clicked tab link and corresponding content
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwhyi-vv3l2D2lLjiIQvnKpNIGKZN7urpB8_hXUvBD5ULnQqWJ0PdEPh00ZtruZsQgk/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
